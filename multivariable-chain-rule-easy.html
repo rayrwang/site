@@ -9,6 +9,10 @@
             body {
                 font-family: sans-serif
             }
+            p {
+                margin-left: 100px
+                margin-right: 100px
+            }
         </style>
     </head>
 
@@ -35,7 +39,10 @@
                 &\frac{db}{da} = \frac{d}{da} b(a)
                 \end{align*}
                 \)</p>
-            <p>And you can take partial derivatives of multivariable functions. The notation is different, but they work the same as derivatives of single variable functions.  </p>
+            <p>And you can take partial derivatives of multivariable functions.
+                The notation is different, but they work the same as derivatives of single variable functions.
+                In this post I will use the partial derivative notation for single variable functions as well,
+                for simplicity/out of laziness.  </p>
             <p>\(
                 \begin{align*}
                 &c = c(a, b) \\
@@ -45,10 +52,11 @@
                 \)</p>
 
         <p><strong>Two simple rules</strong>  </p>
-            <p>The multivariable chain rule is essentially just two simple rules.  </p>
+            <p>The multivariable chain rule is essentially just three simple rules.  </p>
             <p>
                 1. Derivatives along the same path multiply.<br>
                 2. Derivatives long different paths add.
+                3. You must account for all paths.
             </p>
 
         <p><strong>Explanation of rule 1</strong>  </p>
@@ -70,8 +78,12 @@
 
         <p><strong>Explanation of rule 2</strong>  </p>
 
+
+        <p><strong>Explanation of rule 3 and an example</strong>  </p>
+            <p>You have to </p>
+
         <p><strong>Appendix</strong>  </p>
-            <p>Example and checking using PyTorch.  </p>
+            <p>Example and verifying using PyTorch.  </p>
 
     </body>
 </html>
