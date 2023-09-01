@@ -15,43 +15,59 @@
     <body>
         <p>The multivariable chain rule is the main idea behind how the backpropagation algorithm works. Backprop is currently the most popular method for training neural networks.  </p>
         <p>It is a very simple concept.  </p>
-        <p><strong>Basics</strong>  </p>
-        <p>A function gets you from one variable to another.  </p>
-        <p>\(b = b(a)\)  </p>
-        <p>A function can take multiple variables as inputs, a "multivariable function."  </p>
-        <p>\(c = c(a, b)\)  </p>
-        <p>Relatedly, a variable can be the inputs for multiple functions.  </p>
-        <p>\(
-            \begin{align*}
-            b = b(a) \\
-            c = c(a)
-            \end{align*}
-            \)</p>
-        <p>You can take derivatives of functions</p>
-        <p>\(
-            \begin{align*}
-            &b = b(a) \\
-            &\frac{db}{da} = \frac{db(a)}{da}
-            \end{align*}
-             \)</p>
-        <p>And you can take partial derivatives of multivariable functions. The notation is different, but they work the same as derivatives of single variable functions.  </p>
-        <p>\(
-            \begin{align*}
-            &c = c(a, b) \\
-            &\frac{\partial c}{\partial a} = \frac{\partial c(a, b)}{\partial a} \\
-            &\frac{\partial c}{\partial b} = \frac{\partial c(a, b)}{\partial b} \\
-            \end{align*}
-             \)</p>
-        <p><strong>Two simple rules</strong>  </p>
-        <p>The multivariable chain rule is essentially just two simple rules.  </p>
-        <p>
-            1. Derivatives along the same path multiply.<br>
-            2. Derivatives long different paths add.
-        </p>
 
-        <p><strong>Notes</strong>  </p>
+        <p><strong>Basics</strong>  </p>
+            <p>A function gets you from one variable to another.  </p>
+            <p>\(b = b(a)\)  </p>
+            <p>A function can take multiple variables as inputs, a "multivariable function."  </p>
+            <p>\(c = c(a, b)\)  </p>
+            <p>Relatedly, a variable can be the inputs for multiple functions.  </p>
+            <p>\(
+                \begin{align*}
+                b = b(a) \\
+                c = c(a)
+                \end{align*}
+                \)</p>
+            <p>You can take derivatives of functions</p>
+            <p>\(
+                \begin{align*}
+                &b = b(a) \\
+                &\frac{db}{da} = \frac{db(a)}{da}
+                \end{align*}
+                \)</p>
+            <p>And you can take partial derivatives of multivariable functions. The notation is different, but they work the same as derivatives of single variable functions.  </p>
+            <p>\(
+                \begin{align*}
+                &c = c(a, b) \\
+                &\frac{\partial c}{\partial a} = \frac{\partial c(a, b)}{\partial a} \\
+                &\frac{\partial c}{\partial b} = \frac{\partial c(a, b)}{\partial b} \\
+                \end{align*}
+                \)</p>
+
+        <p><strong>Two simple rules</strong>  </p>
+            <p>The multivariable chain rule is essentially just two simple rules.  </p>
+            <p>
+                1. Derivatives along the same path multiply.<br>
+                2. Derivatives long different paths add.
+            </p>
+
+        <p><strong>Explanation of rule 1</strong>  </p>
+            <p>Take the following chain of functions:</p>
+            <p>\(
+                \begin{align*}
+                &b = b(a) \\
+                &c = c(b) \\
+                \end{align*}
+                \)</p>
+            <p>Then, in order to compute \(\frac{\partial c}{\partial a}\),
+                we simply multiply the derivatives of the middle two functions.  
+            </p>
+            <p>\(\frac{\partial c}{\partial a} = \frac{\partial c}{\partial b} \frac{\partial b}{\partial a}\)  </p>
+
+        <p><strong>Explanation of rule 2</strong>  </p>
+
         <p><strong>Appendix</strong>  </p>
-        <p>Example and checking using PyTorch.  </p>
+            <p>Example and checking using PyTorch.  </p>
 
     </body>
 </html>
