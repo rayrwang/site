@@ -1,8 +1,11 @@
-.main-links a {
+.main-links {
     text-align: center;
-    color: #000000;
     font-family: sans-serif;
+}
+
+.main-links a {
     text-decoration: none;
+    color: #000000;
 }
 
 /* #displayName {
