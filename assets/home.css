@@ -5,16 +5,16 @@
 
 .date {
     font-size: 15px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 .post-link {
     text-decoration: none;
     color: #000000;
-    font-size: 25px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     display: inline-block;
 }
 
