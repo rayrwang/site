@@ -32,15 +32,15 @@
             <p>\(
                 \begin{align*}
                 &b = b(a) \\
-                &\frac{db}{da} = \frac{db(a)}{da}
+                &\frac{db}{da} = \frac{d}{da} b(a)
                 \end{align*}
                 \)</p>
             <p>And you can take partial derivatives of multivariable functions. The notation is different, but they work the same as derivatives of single variable functions.  </p>
             <p>\(
                 \begin{align*}
                 &c = c(a, b) \\
-                &\frac{\partial c}{\partial a} = \frac{\partial c(a, b)}{\partial a} \\
-                &\frac{\partial c}{\partial b} = \frac{\partial c(a, b)}{\partial b} \\
+                &\frac{\partial c}{\partial a} = \frac{\partial}{\partial a} c(a, b) \\
+                &\frac{\partial c}{\partial b} = \frac{\partial}{\partial b} c(a, b) \\
                 \end{align*}
                 \)</p>
 
@@ -62,11 +62,6 @@
             <p>Then, in order to compute \(\frac{\partial c}{\partial a}\),
                 we simply multiply the derivatives of the middle two functions.  
             </p>
-            <p>\(
-                \begin(align*)
-                \frac{\partial c}{\partial a} = \frac{\partial c}{\partial b} \frac{\partial b}{\partial a}
-                \end(align*)
-                \)</p>
             <p>\(
                 \begin{align*}
                 &\frac{\partial c}{\partial a} = \frac{\partial c}{\partial b} \frac{\partial b}{\partial a}
