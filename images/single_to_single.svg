@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="110.341 191.66 328.477 80.67" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
-  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 204, 0);" cx="149.41" cy="233.16" rx="39.069" ry="39.17" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 3.552713678800501e-15, 3.552713678800501e-15)"/>
-  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 54px; white-space: pre;" x="125.128" y="313.703" dx="6.527" dy="-63.231" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 3.552713678800501e-15, 3.552713678800501e-15)">A</text>
-  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 204, 0);" cx="399.749" cy="230.83" rx="39.069" ry="39.17" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 3.552713678800501e-15, 3.552713678800501e-15)"/>
-  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 54px; white-space: pre;" x="376.024" y="312.338" dx="6.527" dy="-63.231" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 3.552713678800501e-15, 3.552713678800501e-15)">B</text>
-  <path d="M 191.1 251.806 H 303.747 L 303.747 241.806 L 343.747 261.806 L 303.747 281.806 L 303.747 271.806 H 191.1 V 251.806 Z" style="stroke: rgb(0, 0, 0);" transform="matrix(0.9999429583549498, -0.010671000927686691, 0.010671000927686691, 0.9999429583549498, 4.121539115905762, -27.95855522155761)" bx:shape="arrow 191.1 241.806 152.647 40 20 40 0 1@84f03f98"/>
+<svg viewBox="106.945 140.114 322.049 78.34" width="322.049" height="78.34" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 204, 0);" cx="146.014" cy="179.284" rx="39.069" ry="39.17" transform="matrix(1, 0, 0, 1, 7.105427357601002e-15, 7.105427357601002e-15)"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 54px; white-space: pre;" x="122.267" y="261.996" dx="6.527" dy="-63.231" transform="matrix(1, 0, 0, 1, 7.105427357601002e-15, 7.105427357601002e-15)">A</text>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 204, 0);" cx="389.925" cy="179.284" rx="39.069" ry="39.17" transform="matrix(1, 0, 0, 1, 7.105427357601002e-15, 7.105427357601002e-15)"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 54px; white-space: pre;" x="367.353" y="261.996" dx="6.527" dy="-63.231" transform="matrix(1, 0, 0, 1, 7.105427357601002e-15, 7.105427357601002e-15)">B</text>
+  <path d="M 196.42 254.3905 H 302.524 L 302.524 241.806 L 342.524 261.806 L 302.524 281.806 L 302.524 269.2215 H 196.42 V 254.3905 Z" style="stroke: rgb(0, 0, 0);" transform="matrix(0.9999589920043945, -0.009062000550329685, 0.009062000550329685, 0.9999589920043945, -1.8236550092697073, -81.94712066650389)" bx:shape="arrow 196.42 241.806 146.104 40 14.831 40 0 1@3f2a0c39"/>
 </svg>

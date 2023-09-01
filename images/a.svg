@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 500 500" width="500" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
-  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 204, 0);" cx="149.41" cy="233.16" rx="39.069" ry="39.17"/>
-  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 54px; white-space: pre;" x="125.128" y="313.703" dx="6.527" dy="-63.231">A</text>
-  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 204, 0);" cx="399.749" cy="230.83" rx="39.069" ry="39.17"/>
-  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 54px; white-space: pre;" x="376.024" y="312.338" dx="6.527" dy="-63.231">B</text>
-  <path d="M 191.1 251.806 H 303.747 L 303.747 241.806 L 343.747 261.806 L 303.747 281.806 L 303.747 271.806 H 191.1 V 251.806 Z" style="stroke: rgb(0, 0, 0);" transform="matrix(0.9999429583549501, -0.010671000927686691, 0.010671000927686691, 0.9999429583549501, 4.121539115905762, -27.958555221557617)" bx:shape="arrow 191.1 241.806 152.647 40 20 40 0 1@84f03f98"/>
-</svg>
