@@ -55,8 +55,8 @@
             <p>The multivariable chain rule is essentially just three simple rules.  </p>
             <p>
                 1. Derivatives along the same path multiply.<br>
-                2. Derivatives long different paths add.
-                3. You must account for all paths.
+                2. Derivatives long different paths add.  
+                3. You must account for all paths.  
             </p>
 
         <p><strong>Explanation of rule 1</strong>  </p>
@@ -77,10 +77,23 @@
                 \)</p>
 
         <p><strong>Explanation of rule 2</strong>  </p>
-
+            <p>In this example, the derivatives from \(d\) come back together at \(a\).
+                To do this, you simply add the derivatives from the two paths.
+            </p>
+            <p>\(
+                \begin{align*}
+                &b = b(a) \\
+                &c = c(a) \\
+                &d = d(b, c) \\
+                &\frac{\partial d}{\partial a} = \frac{\partial d}{\partial b} \frac{\partial b}{\partial a} + \frac{\partial d}{\partial c} \frac{\partial c}{\partial a}
+                \end{align*}
+                \)</p>
 
         <p><strong>Explanation of rule 3 and an example</strong>  </p>
-            <p>You have to </p>
+            <p>To calculate the derivative of one variable with respect to another,
+                you must account for all the paths between them.
+            </p>
+            <p>In the example .</p>
 
         <p><strong>Appendix</strong>  </p>
             <p>Example and verifying using PyTorch.  </p>
