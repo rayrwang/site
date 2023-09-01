@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-181.789 217.423 657.941 150.002" width="657.941" height="150.002" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 204, 0);" cx="-111.959" cy="292.68" rx="39.069" ry="39.17"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 54px; white-space: pre;" x="-133.805" y="370.245" dx="6.527" dy="-63.231">a</text>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 204, 0);" cx="396.2" cy="292.68" rx="39.069" ry="39.17"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 54px; white-space: pre;" x="375.274" y="370.245" dx="6.527" dy="-63.231">c</text>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 204, 0);" cx="146.014" cy="292.68" rx="39.069" ry="39.17"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 54px; white-space: pre;" x="125.096" y="370.245" dx="6.527" dy="-63.231">b</text>
+  <path d="M 196.422 254.392 H 311.772 L 311.772 241.808 L 351.772 261.808 L 311.772 281.808 L 311.772 269.223 H 196.422 V 254.392 Z" style="stroke: rgb(0, 0, 0);" transform="matrix(0.9999969601631166, -0.002386000007390976, 0.002386000007390976, 0.9999969601631166, -1.0712580680847168, 31.069345474243164)" bx:shape="arrow 196.422 241.808 155.35 40 14.831 40 0 1@6706232c"/>
+  <path d="M 196.422 254.392 H 311.772 L 311.772 241.808 L 351.772 261.808 L 311.772 281.808 L 311.772 269.223 H 196.422 V 254.392 Z" style="stroke: rgb(0, 0, 0);" transform="matrix(0.9999969601631166, -0.002386000007390976, 0.002386000007390976, 0.9999969601631166, -257.16552734375, 31.069345474243164)" bx:shape="arrow 196.422 241.808 155.35 40 14.831 40 0 1@6706232c"/>
+</svg>
