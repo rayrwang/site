@@ -1,1 +1,2 @@
 Redirect 301 /cpanel /nonexistentpage
+Redirect 301 https://www.rayrwang.com https://rayrwang.com
