@@ -58,6 +58,11 @@
             \end{align*}
             \)</p>
         <p><strong>Other things to add:</strong></p>
+        <p>To improve on vanilla gradient descent, there are basically two things we can do.<br>
+            1. Change the loss function.<br>
+            2. Change how we use the gradients.
+        </p>
+        <p><strong>1. Change the loss function.</strong></p>
         <p><strong>Weight decay</strong></p>
         <p>Weight decay is a regularization technique that incentivises weights to be close to \(0\) to prevent overfitting.
             This is done by adding the square of each weight to the loss.  
@@ -83,14 +88,18 @@
             \)</p>
         <p>The factor of \(2\) gets absorbed into the hyperparameter \(\lambda\) for convenience.
         </p>
-        <p><strong>Previous gradients:</strong></p>
+        <p><strong>2. Change how we use the gradients.</strong></p>
+        <p><strong>Previous gradients</strong></p>
         <p>For the following, we will need to keep track of the gradient at previous timesteps.</p>
-
         <p>\(
             \begin{align*}
             &\boldsymbol{g_t} = Current\ gradient \\
             &\boldsymbol{g_{t-1}} = Gradient\ at\ previous\ timestep \\
             \end{align*}
             \)</p>
+        <p>Momentum</p>
+
+        <p><strong>Putting it all together: Adam</strong></p>
+        <p><strong>AdamW</strong></p>
     </body>
 </html>
