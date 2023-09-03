@@ -37,7 +37,7 @@
             &l = f(\boldsymbol{x}, \boldsymbol{\theta}) \\
             &l : loss \\
             &f : neural\ net\ architecture \\
-            &\boldsymbol{x} : input\ vector \\
+            &\boldsymbol{x} : data\ vector\ (both\ inputs\ and\ optional\ labels) \\
             &\boldsymbol{\theta} : vector\ of\ parameters
             \end{align*}
             \)</p>
@@ -49,7 +49,7 @@
             &\boldsymbol{g} : gradient\ vector
             \end{align*}
             \)</p>
-        <p><strong>Gradient descent::</strong></p>
+        <p><strong>Gradient descent:</strong></p>
         <p>Vanilla gradient descent:</p>
         <p>\(
             \begin{align*}
@@ -63,7 +63,7 @@
             This is done by adding the square of each weight to the loss.  
         </p>
         <p>New loss function:</p>
-        \(
+        <p>\(
             \begin{align*}
             &l = f(\boldsymbol{x}, \boldsymbol{\theta}) + \sum_i w_i^2 \\
             \end{align*}
