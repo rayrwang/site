@@ -71,17 +71,26 @@
         <p>New loss function:</p>
         <p>\(
             \begin{align*}
-            &l = f(\boldsymbol{x}, \boldsymbol{\theta}) + \lambda \sum_i \theta_i^2 = \boldsymbol{\theta} \cdot \boldsymbol{\theta} \\
-            &\lambda : (hypermarameter)\ weight\ decay\ strength
+            &l = f(\boldsymbol{x}, \boldsymbol{\theta}) + \lambda \sum_i \theta_i^2 \\
+            &\lambda : (hyperparameter)\ weight\ decay\ strength
             \end{align*}
             \)</p>
         <p>New gradient:</p>
         <p>\(
             \begin{align*}
-            &\boldsymbol{g} = \frac{dl}{d\boldsymbol{\theta}} = \frac{d}{d \theta} f(\boldsymbol{x}, \boldsymbol{\theta}) + 2 \lambda \boldsymbol{\theta} \\
+            &\boldsymbol{g} = \frac{dl}{d\boldsymbol{\theta}} = \frac{d}{d \boldsymbol{\theta}} f(\boldsymbol{x}, \boldsymbol{\theta}) + 2 \lambda \boldsymbol{\theta} \\
             \end{align*}
             \)</p>
         <p>The factor of \(2\) gets absorbed into the hyperparameter \(\lambda\) for convenience.
         </p>
+        <p><strong>Previous gradients:</strong></p>
+        <p>For the following, we will need to keep track of the gradient at previous timesteps.</p>
+
+        <p>\(
+            \begin{align*}
+            &\boldsymbol{g_t} = Current gradient \\
+            &\boldsymbol{g_t-1} = Gradient at previous timestep \\
+            \end{align*}
+            \)</p>
     </body>
 </html>
