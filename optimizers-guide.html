@@ -50,7 +50,7 @@
             \end{align*}
             \)</p>
         <p><strong>Gradient descent:</strong></p>
-        <p>Vanilla gradient descent:</p>
+        <p>Vanilla gradient descent. Parameters get updated using gradients to descend loss function.</p>
         <p>\(
             \begin{align*}
             &\boldsymbol{\theta} \leftarrow \boldsymbol{\theta} - \alpha \boldsymbol{g} \\
@@ -59,9 +59,15 @@
             \)</p>
         <p><strong>Other things to add:</strong></p>
         <p><strong>Weight decay</strong></p>
-        <p>Weight decay is a regularization technique that incentivises weights to be close to \(0\).
+        <p>Weight decay is a regularization technique that incentivises weights to be close to \(0\) to prevent overfitting.
             This is done by adding the square of each weight to the loss.  
         </p>
+        <p>Old loss function:</p>
+        <p>\(
+            \begin{align*}
+            &l = f(\boldsymbol{x}, \boldsymbol{\theta}) \\
+            \end{align*}
+            \)</p>
         <p>New loss function:</p>
         <p>\(
             \begin{align*}
