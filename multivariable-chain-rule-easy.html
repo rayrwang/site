@@ -143,7 +143,7 @@
             <p>Example and verifying using PyTorch.  </p>
             <p>Let's solve the following example:</p>
             <img src="/images/example.svg">
-            <p>Start from the right:<br><br>
+            <p>Start from the right:<br>
                 First, \(\frac{d(d)}{dc}\) is simply the partial derivative \(\frac{\partial d}{\partial c}\)
                 because there is only one path from \(d\) to \(c\).
             <p>\(
@@ -152,6 +152,15 @@
                 \end{align*}
                 \)</p>
             </p>
+            <p>Next, to calculate \(\frac{d(d)}{db}\) we need to consider both paths,
+                one direct and one through \(c\).
+            </p>
+            <p>\(
+                \begin{align*}
+                &\frac{d(d)}{db} = \frac{\partial d}{\partial c} \frac{\partial c}{\partial d} + \frac{\partial d}{\partial c}
+                \end{align*}
+                \)</p>
+            
             <!-- <pre><code>
                 import torch
             </code></pre> -->
