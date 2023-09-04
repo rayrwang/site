@@ -8,6 +8,11 @@
     margin-bottom: 5px;
 }
 
+.post-name {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .post-link {
     text-decoration: none;
     color: #000000;
