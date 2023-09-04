@@ -35,18 +35,18 @@
         <h2>Here's your neural network:</h2>
         <p>\(
             \begin{align*}
-            &l = f(\boldsymbol{x}, \boldsymbol{\theta}) \\
+            &l = f(\boldsymbol{x}, \boldsymbol{w}) \\
             &l : loss \\
             &f : neural\ net\ architecture \\
             &\boldsymbol{x} : data\ vector\ (both\ inputs\ and\ optional\ labels) \\
-            &\boldsymbol{\theta} : vector\ of\ parameters
+            &\boldsymbol{w} : vector\ of\ weights a.k.a. parameters
             \end{align*}
             \)</p>
         <h2>Gradient:</h2>
         <p>And here's your gradient:</p>
         <p>\(
             \begin{align*}
-            &\boldsymbol{g} = \frac{dl}{d\boldsymbol{\theta}} \\
+            &\boldsymbol{g} = \frac{dl}{d\boldsymbol{w}} \\
             &\boldsymbol{g} : gradient\ vector
             \end{align*}
             \)</p>
@@ -54,8 +54,8 @@
         <p>Vanilla gradient descent. Parameters get updated using gradients to descend loss function.</p>
         <p>\(
             \begin{align*}
-            &\boldsymbol{\theta} \leftarrow \boldsymbol{\theta} - \alpha \boldsymbol{g} \\
-            &\alpha : learning\ rate
+            &\boldsymbol{w} \leftarrow \boldsymbol{w} - \a \boldsymbol{g} \\
+            &\a : learning\ rate
             \end{align*}
             \)</p>
         <h2>Other things to add:</h2>
@@ -71,20 +71,20 @@
         <p>Old loss function:</p>
         <p>\(
             \begin{align*}
-            &l = f(\boldsymbol{x}, \boldsymbol{\theta}) \\
+            &l = f(\boldsymbol{x}, \boldsymbol{w}) \\
             \end{align*}
             \)</p>
         <p>New loss function:</p>
         <p>\(
             \begin{align*}
-            &l = f(\boldsymbol{x}, \boldsymbol{\theta}) + \lambda \sum_i \theta_i^2 \\
-            &\lambda : (hyperparameter)\ weight\ decay\ strength
+            &l = f(\boldsymbol{x}, \boldsymbol{w}) + \b \sum_i \w_i^2 \\
+            &\b : (hyperparameter)\ weight\ decay\ strength
             \end{align*}
             \)</p>
         <p>New gradient:</p>
         <p>\(
             \begin{align*}
-            &\boldsymbol{g} = \frac{dl}{d\boldsymbol{\theta}} = \frac{d}{d \boldsymbol{\theta}} f(\boldsymbol{x}, \boldsymbol{\theta}) + 2 \lambda \boldsymbol{\theta} \\
+            &\boldsymbol{g} = \frac{dl}{d\boldsymbol{w}} = \frac{d}{d \boldsymbol{w}} f(\boldsymbol{x}, \boldsymbol{w}) + 2 a \boldsymbol{w} \\
             \end{align*}
             \)</p>
         <p>The factor of \(2\) gets absorbed into the hyperparameter \(\lambda\) for convenience.
