@@ -143,7 +143,15 @@
             <p>Example and verifying using PyTorch.  </p>
             <p>Let's solve the following example:</p>
             <img src="/images/example.svg">
-            <p>Start from the right:</p>
+            <p>Start from the right:<br><br>
+                First, \(\frac{d(d)}{dc}\) is simply the partial derivative \(\frac{\partial d}{\partial c}\)
+                because there is only one path from \(d\) to \(c\).
+            <p>\(
+                \begin{align*}
+                &\frac{d(d)}{dc} = \frac{\partial d}{\partial c} \frac{db}{da}
+                \end{align*}
+                \)</p>
+            </p>
             <!-- <pre><code>
                 import torch
             </code></pre> -->
