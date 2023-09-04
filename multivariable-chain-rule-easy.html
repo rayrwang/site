@@ -31,7 +31,7 @@
         <p style="font-size: 30px; margin-bottom: 10px;"><strong>(not yet complete) The Multivariable Chain Rule in 10 Minutes</strong></p>
         
         <p>The multivariable chain rule is the main idea behind how the backpropagation algorithm works. Backprop is currently the most popular method for training neural networks.  </p>
-        <p>It is a very simple concept.  </p>
+        <p>It'ss a very simple concept.  </p>
 
         <p><strong>Basics</strong>  </p>
             <p>A function gets you from one variable to another.  </p>
@@ -85,8 +85,8 @@
                 &c = c(b) \\
                 \end{align*}
                 \)</p>
-            <p>Then, in order to compute \(\frac{dc}{da}\),
-                we simply multiply the derivatives of the middle two functions.  
+            <p>In order to compute \(\frac{dc}{da}\),
+                you multiply the derivatives of the middle two functions.  
             </p>
             <img src="/images/chain_back.svg">
             <p>\(
@@ -97,9 +97,9 @@
 
         <p><strong>Explanation of rule 2</strong>  </p>
             <p>
-                In this example, the derivatives from \(d\) come back together at \(a\).
+                Take this example:
             </p>
-            <img src="/images/adding_back.svg">
+            <img src="/images/adding.svg">
             <p>\(
                 \begin{align*}
                 &b = b(a) \\
@@ -108,9 +108,12 @@
                 \end{align*}
                 \)</p>
             <p>
-                To do this, you simply add the derivatives from the two paths.
+                In this example, the derivatives from \(d\) come back together at \(a\).
             </p>
-            <img src="/images/adding.svg">
+            <img src="/images/adding_back.svg">
+            <p>
+                To calculate \(frac{d(d)}{da}\), you simply add the derivatives from the two paths.
+            </p>
             <p>\(
                 \begin{align*}
                 &\frac{d(d)}{da} = \frac{\partial d}{\partial b} \frac{db}{da} + \frac{\partial d}{\partial c} \frac{dc}{da}
