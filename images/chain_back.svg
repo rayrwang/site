@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-181.789 217.423 657.941 150.002" width="657.941px" height="150.002px" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 204, 0);" cx="-111.959" cy="292.68" rx="39.069" ry="39.17" transform="matrix(1, 0, 0, 1, 1.4210854715202004e-14, 0)"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 54px; white-space: pre;" x="-133.805" y="370.245" dx="6.527" dy="-63.231" transform="matrix(1, 0, 0, 1, 1.4210854715202004e-14, 0)">a</text>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 204, 0);" cx="396.2" cy="292.68" rx="39.069" ry="39.17" transform="matrix(1, 0, 0, 1, 1.4210854715202004e-14, 0)"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 54px; white-space: pre;" x="375.274" y="370.245" dx="6.527" dy="-63.231" transform="matrix(1, 0, 0, 1, 1.4210854715202004e-14, 0)">c</text>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 204, 0);" cx="146.014" cy="292.68" rx="39.069" ry="39.17" transform="matrix(1, 0, 0, 1, 1.4210854715202004e-14, 0)"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 54px; white-space: pre;" x="125.096" y="370.245" dx="6.527" dy="-63.231" transform="matrix(1, 0, 0, 1, 1.4210854715202004e-14, 0)">b</text>
+  <path d="M -196.422 -229.223 H -81.072 L -81.072 -241.808 L -41.072 -221.808 L -81.072 -201.808 L -81.072 -214.392 H -196.422 V -229.223 Z" style="stroke: rgb(0, 0, 0); fill: rgb(0, 162, 255);" transform="matrix(-0.9999969601631166, -0.002386000007390976, -0.002386000007390976, 0.9999969601631166, 154.37370300292972, 513.7465209960938)" bx:shape="arrow -196.422 -241.808 155.35 40 14.831 40 0 1@c4177e3b"/>
+  <path d="M -196.422 -229.223 H -81.072 L -81.072 -241.808 L -41.072 -221.808 L -81.072 -201.808 L -81.072 -214.392 H -196.422 V -229.223 Z" style="stroke: rgb(0, 0, 0); fill: rgb(0, 162, 255);" transform="matrix(-0.9999969601631166, -0.002386000007390976, -0.002386000007390976, 0.9999969601631166, -101.7205581665039, 513.7465209960938)" bx:shape="arrow -196.422 -241.808 155.35 40 14.831 40 0 1@c4177e3b"/>
+</svg>
