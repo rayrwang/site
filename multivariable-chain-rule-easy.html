@@ -112,7 +112,7 @@
             </p>
             <img src="/images/adding_back.svg">
             <p>
-                To calculate \(frac{d(d)}{da}\), you simply add the derivatives from the two paths.
+                To calculate \(\frac{d(d)}{da}\), you simply add the derivatives from the two paths.
             </p>
             <p>\(
                 \begin{align*}
@@ -120,10 +120,23 @@
                 \end{align*}
                 \)</p>
 
-        <p><strong>Explanation of rule 3 and an example</strong>  </p>
-            <p>To calculate the derivative of one variable with respect to another,
-                you must account for all the paths between them.
+        <p><strong>Explanation of rule 3</strong>  </p>
+            <p>To follow from the previous example, you must account for both paths.
+                Only calculating one path is not enough.
             </p>
+            <img src="/images/adding.svg">
+            <p>\(
+                \begin{align*}
+                &\frac{d(d)}{da} \neq \frac{\partial d}{\partial b} \frac{db}{da}
+                &\frac{d(d)}{da} \neq \frac{\partial d}{\partial c} \frac{dc}{da}
+                \end{align*}
+                \)</p>
+            <p>But, as shown above, accounting for both paths is correct.</p>
+            <p>\(
+                \begin{align*}
+                &\frac{d(d)}{da} = \frac{\partial d}{\partial b} \frac{db}{da} + \frac{\partial d}{\partial c} \frac{dc}{da}
+                \end{align*}
+                \)</p>
             <p>In the example .</p>
 
         <p><strong>Appendix</strong>  </p>
