@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^cpanel(.*)$ / [R=301,L]
