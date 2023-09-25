@@ -148,6 +148,14 @@
             <pre><code class="python">
                 import torch
             </code></pre>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', (event) => {
+            document.querySelectorAll('pre code').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
+            });
+        </script>
             <!-- <p>Start from the right:<br>
                 First, the simplest one, the full derivative \(\frac{d(d)}{dc}\) is simply the partial derivative \(\frac{\partial d}{\partial c}\)
                 because there is only one path from \(d\) to \(c\).
