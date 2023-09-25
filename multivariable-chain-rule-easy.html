@@ -18,8 +18,13 @@
                 margin-right: 100px;
             }
         </style>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/default.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        
+        <!-- and it's easy to individually load additional languages -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/go.min.js"></script>
+        
+        <script>hljs.highlightAll();</script>
     </head>
 
     <body>
@@ -145,17 +150,19 @@
             <p>Example and verifying using PyTorch.  </p>
             <p>Let's solve the following example:</p>
             <img src="/images/example.svg">
-            <!-- <pre><code class="python">
+            <pre><code class="language-python">
                 import torch
-            </code></pre>
+                print("a")
+            </code></pre> 
+        
 
-        <script>
+        <!-- <script>
             document.addEventListener('DOMContentLoaded', (event) => {
             document.querySelectorAll('pre code').forEach((block) => {
                 hljs.highlightBlock(block);
             });
             });
-        </script> -->
+        </script>  -->
             <!-- <p>Start from the right:<br>
                 First, the simplest one, the full derivative \(\frac{d(d)}{dc}\) is simply the partial derivative \(\frac{\partial d}{\partial c}\)
                 because there is only one path from \(d\) to \(c\).
