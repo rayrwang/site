@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg viewBox="83.152 117.319 367.227 120.285" width="367.227px" height="120.285px" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
-  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 0, 0);" cx="146.014" cy="179.284" rx="39.069" ry="39.17" transform="matrix(1, 0, 0, 1, 0, -1.4210854715202004e-14)"/>
-  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 54px; white-space: pre;" x="124.316" y="257.88" dx="6.527" dy="-63.231" transform="matrix(1, 0, 0, 1, 0, -1.4210854715202004e-14)">a</text>
-  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(0, 191, 0);" cx="389.925" cy="179.284" rx="39.069" ry="39.17" transform="matrix(1, 0, 0, 1, 0, -1.4210854715202004e-14)"/>
-  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 54px; white-space: pre;" x="369.96" y="257.88" dx="6.527" dy="-63.231" transform="matrix(1, 0, 0, 1, 0, -1.4210854715202004e-14)">b</text>
-  <path d="M 196.42 254.39 H 302.444 L 302.444 241.806 L 342.444 261.806 L 302.444 281.806 L 302.444 269.221 H 196.42 V 254.39 Z" style="stroke: rgb(0, 0, 0); fill: rgb(0, 191, 0);" transform="matrix(0.9999788999557495, -0.00643400102853775, 0.00643400102853775, 0.9999788999557495, -1.1394150257110596, -82.46832275390626)" bx:shape="arrow 196.42 241.806 146.024 40 14.831 40 0 1@c7996ffa"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(243, 83, 83);" cx="146.014" cy="179.284" rx="39.069" ry="39.17"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 54px; white-space: pre;" x="124.316" y="257.88" dx="6.527" dy="-63.231">a</text>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(94, 110, 255);" cx="389.925" cy="179.284" rx="39.069" ry="39.17"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 54px; white-space: pre;" x="369.96" y="257.88" dx="6.527" dy="-63.231">b</text>
+  <path d="M 196.42 254.39 H 302.444 L 302.444 241.806 L 342.444 261.806 L 302.444 281.806 L 302.444 269.221 H 196.42 V 254.39 Z" style="stroke: rgb(0, 0, 0); fill: rgb(43, 170, 0);" transform="matrix(0.9999788999557495, -0.00643400102853775, 0.00643400102853775, 0.9999788999557495, -1.1394150257110596, -82.46832275390625)" bx:shape="arrow 196.42 241.806 146.024 40 14.831 40 0 1@c7996ffa"/>
 </svg>
