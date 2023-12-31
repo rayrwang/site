@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^website\.com$ [NC]
+RewriteRule ^cpanel$ - [F,L]
